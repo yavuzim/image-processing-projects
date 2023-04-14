@@ -27,7 +27,7 @@ def findAngle(img, p1, p2, p3, lmList, draw = True):
         cv.putText(img, str(int(angle)), (x2 - 40, y2 - 40), cv.FONT_HERSHEY_PLAIN, 2, (0,255,255), 2)
     return angle
 
-cap = cv.VideoCapture("video1.mp4")
+cap = cv.VideoCapture("video2.mp4")
 
 mpPose = mp.solutions.pose
 pose = mpPose.Pose()
