@@ -1,1 +1,2 @@
-<img src="img.png">
+# OUTPUT
+<img src="img.png" width = 400 height = 400>
