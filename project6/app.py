@@ -27,8 +27,7 @@ while cap.isOpened():
     cTime = time.time()
     fps = 1/(cTime - pTime)
     pTime = cTime
-    cv.putText(img, "FPS : "+str(int(fps)), (10,65), cv.FONT_HERSHEY_PLAIN, 2, (255,0,0), 2)
-            
+    cv.putText(img, "FPS : "+str(int(fps)), (10,65), cv.FONT_HERSHEY_PLAIN, 2, (255,0,0), 2)            
     
     cv.imshow("img",img)    
     if cv.waitKey(10) == ord("q"):
